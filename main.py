@@ -9,7 +9,7 @@ async def on_startup(_):
         check_connection()
         print('Подключение к БД успешное!')
     except:
-        print('Ошибка БД')
+        print('Ошибка БД!')
 
 
 
