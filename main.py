@@ -7,9 +7,9 @@ async def on_startup(_):
     print('Бот запущен')
     try:
         check_connection()
-        print('Подключение к БД успешное!')
+        print('Подключение к БД успешное')
     except:
-        print('Ошибка БД!')
+        print('Ошибка БД! Что-то пошло не так(((')
 
 
 
