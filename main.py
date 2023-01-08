@@ -4,7 +4,7 @@ from data_base.SQLite import check_connection
 
 
 async def on_startup(_):
-    print('Бот запущен')
+    print('Бот запущен и готов к работе')
     try:
         check_connection()
         print('Подключение к БД успешное')
